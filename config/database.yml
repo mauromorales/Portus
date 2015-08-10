@@ -3,7 +3,7 @@ default: &default
   encoding: utf8
 <% if ENV['COMPOSE'] %>
   host: db
-  username: root
+  username: portus
   password: portus
 <% end %>
 
